@@ -42,19 +42,16 @@ Screenshot:
 ![Unit Test](Images/Java_Unit_Test.png)
 
 ### Integration Tests Executed
-- GatewayDeviceAppTest.Java
-
-Screenshot:
-![Int Test](Images/Java_Int_Test.png)
-
 
 NOTE: TA's will execute most of your integration tests using their own environment, with
 some exceptions (such as your cloud connectivity tests). In such cases, they'll review
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- ConfigUtilTest.java
 - GatewayDeviceAppTest.Java
-- 
+
+Screenshot:
+![Int Test](Images/Java_Int_Test.png)
+
 
 EOF.
