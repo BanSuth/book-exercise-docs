@@ -20,7 +20,7 @@ Our implementation works through the use of Eclipse. We created and tested the d
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: (https://github.com/BanSuth/piot-java-components/tree/labmodule01)
+URL: [Github Link for GDA](https://github.com/BanSuth/piot-java-components/tree/labmodule01)
 
 ### UML Design Diagram(s)
 
