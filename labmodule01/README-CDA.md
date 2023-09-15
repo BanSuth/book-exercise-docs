@@ -9,8 +9,9 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
-
+Our implementation tests through unit and integration testing if our environment and system is setup properly for future use. This is confirmed through our screenshots showed below.
 How does your implementation work?
+Our implementation works through the use of eclipse. We created and tested the different components after confirming that the paths and settings were properly set. We have included screenshots below.
 
 ### Code Repository and Branch
 
