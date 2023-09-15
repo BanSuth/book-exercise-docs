@@ -10,7 +10,7 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Our implementation tests through unit and integration testing if our environment and system is setup properly for future use. This is confirmed through our screenshots showed below.
+Our implementation tests through unit and integration testing if our environment and system is setup properly for future use. We used the python environment for our implementation. This is confirmed through our screenshots showed below.
 
 How does your implementation work?
 
