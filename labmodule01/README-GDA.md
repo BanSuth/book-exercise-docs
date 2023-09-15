@@ -14,7 +14,7 @@ Our implementation tests through unit and integration testing if our environment
 
 How does your implementation work?
 
-Our implementation works through the use of eclipse. We created and tested the different components after confirming that the paths and settings were properly set. We have included screenshots below.
+Our implementation works through the use of Eclipse. We created and tested the different components after confirming that the paths and settings were properly set. We have included screenshots below.
 
 ### Code Repository and Branch
 
@@ -37,12 +37,14 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest.java
-  Screenshot:
+
+Screenshot:
 ![Unit Test](Images/Java_Unit_Test.png)
 
 ### Integration Tests Executed
 - GatewayDeviceAppTest.Java
-  Screenshot:
+
+Screenshot:
 ![Int Test](Images/Java_Int_Test.png)
 
 
