@@ -28,7 +28,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-(Images/GDA_UML.PNG)
+!(Images/GDA_UML.PNG)
 
 ### Unit Tests Executed
 
@@ -38,12 +38,12 @@ since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest.java
   Screenshot:
-(Images/Java_Unit_Test.png)
+!(Images/Java_Unit_Test.png)
 
 ### Integration Tests Executed
 - GatewayDeviceAppTest.Java
   Screenshot:
-(Images/Java_Int_Test.png)
+!(Images/Java_Int_Test.png)
 
 
 NOTE: TA's will execute most of your integration tests using their own environment, with
