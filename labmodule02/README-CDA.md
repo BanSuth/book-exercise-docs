@@ -37,14 +37,17 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 since you need to ensure you haven't introduced regressions.
 
 - ConfigUtilTest.py
+
 Screenshot:
 ![ConfigUtilTest](Images/CDA/ConfigUtilTest_PYTHON_UNIT.png)
 
 - SystemCpuUtilTaskTest.py
+
 Screenshot:
 ![SystemCpuUtilTaskTest](Images/CDA/SystemCpuUtilTaskTest_PYTHON_UNIT.png)
 
 - SystemMemUtilTaskTest.py
+
 Screenshot:
 ![SystemMemUtilTaskTest](Images/CDA/SystemMemUtilTaskTest_PYTHON_UNIT.png)
 
@@ -56,10 +59,12 @@ your code to ensure it's correct. As for the tests you execute, you only need to
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - ConstrainedDeviceAppTest.py
+
 Screenshot:
 ![ConstrainedDeviceAppTest](Images/CDA/ConstrainedDeviceAppTest_PYTHON_INT.png)
 
 - SystemPerformanceManagerTest.py
+
 Screenshot:
 ![SystemPerformanceManagerTest](Images/CDA/SystemPerformanceManagerTest_PYTHON.png)
 
