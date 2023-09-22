@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Our implementation updates the system performance manager, creates instances of the gateway device app, constructs multiple system tasks and then integrates them into the system performance manager. Finally it runs unit and integration tests on all of the components.
+
 How does your implementation work?
+
+The implementation works by creating a timed instance for the constrained device app. It then proceeds to run the system performance manager which is connected to the four different system monitoring tasks. The base system util task just grabs basic information like name, typeid and telemetry. The system CPU util task which aggregates all the cores into a single CPU utilization percentage to figure out how much of the CPUs are being used. The system memory util task returns the percent utilization of memory that the system uses. The GDA is different from the CDA because it has a fourth system monitoring class called system disk util task which grabs the data on disk utilization and formulates it into a percentage. Finally the unit and integration tests confirm if the various components of the system are working as intended.
 
 ### Code Repository and Branch
 
