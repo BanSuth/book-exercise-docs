@@ -47,7 +47,7 @@ Screenshot:
 ![SystemCpuUtilTaskTest](Images/CDA/SystemCpuUtilTaskTest_PYTHON_UNIT.png)
 
 - SystemMemUtilTaskTest.py
-
+  
 Screenshot:
 ![SystemMemUtilTaskTest](Images/CDA/SystemMemUtilTaskTest_PYTHON_UNIT.png)
 
