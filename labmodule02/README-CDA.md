@@ -10,7 +10,7 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Our implementation updates the system performance manager, creates instances of the constrained device app, and constructs multiple system tasks and then integrates them into the system performance manager. Finally runs unit and integration tests on all of the components.
+Our implementation updates the system performance manager, creates instances of the constrained device app, constructs multiple system tasks and then integrates them into the system performance manager. Finally it runs unit and integration tests on all of the components.
 
 How does your implementation work?
 
