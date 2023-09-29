@@ -9,8 +9,11 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed at [PIOT-IN
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+Our implementation creates a device data manager that manages the various devices under it including the system performance manager, sensor adaptor manager, and actuator adaptor manager. The implementation then has those devices gather data from the tasks set up under each manager and then encompasses the managers and device data manager with data wrappers.
 
 How does your implementation work?
+
+The implementation works by creating data containers so that we can support the data collection and actuation side of our program. Afterwards we build sensor simulation instances to store the data and interfaces to access them. We then implemented our data with actuators tasks which allows us to process the data into log messages. We proceeded connected the simulated sensors to the sensor adapter manager and the actuators to the actuator adaptor manager, this allows us a centralized was to utalize and examine the tasks. Furthermore we created and device data manager to manage all the older and newly created managers and it becomes our new handler class. This allows the device data manageer to process all the sensor data and handle actuation events after it is connected to the constrained device manager.
 
 ### Code Repository and Branch
 
