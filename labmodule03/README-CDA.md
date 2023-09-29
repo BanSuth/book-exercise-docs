@@ -101,7 +101,7 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 Screenshot:
 
-![SensorAdapterManagerTest](Images/SensorAdapterManagerTest_INT.PNG)
+![SensorAdapterManagerTest](Images/SensorAdapterManagerTest_INT.png)
 
 - ActuatorAdapterManagerTest.py      
 
