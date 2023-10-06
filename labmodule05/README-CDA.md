@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: [Github link for CDA](https://github.com/BanSuth/piot-python-components/tree/labmodule05)
 
 ### UML Design Diagram(s)
 
@@ -24,6 +24,7 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
+![CDA Image](Images/CDA/CDA_UML.png)
 
 ### Unit Tests Executed
 
@@ -31,9 +32,11 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- DataUtilTest.py 
+
+Screenshot: 
+
+![DataUtilTest](Images/CDA/DataUtilTest_UNIT.PNG)
 
 ### Integration Tests Executed
 
@@ -42,8 +45,18 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- SystemPerformanceManagerTest.py
+
+Screenshot: 
+
+![DataUtilTest](Images/CDA/SystemPerformanceManagerTest_INT.PNG)
+
+- DataIntegrationTest.py
+
+Screenshot: 
+
+![DataIntegrationTest](Images/CDA/DataIntegrationTest_INT.PNG)
+
+
 
 EOF.
