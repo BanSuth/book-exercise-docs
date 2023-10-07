@@ -10,8 +10,10 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-How does your implementation work?
+Our implementation addes a DataUtil class and updates our device data manager to connect to it. We also modify the SystemPerformanceData function and add JSON conversion functionalities for our ActuatorData,SensorData, and SystemPerformanceData instances, these will all be under our new DataUtil class.
 
+How does your implementation work?
+ In our implementation our Data util class has new functions called ActuatorDataToJson, SensorDataToJson, SystemPerformanceDataToJson and _generateJsonData to extract data from the BaseIoTData subclasses created in lab activity 3. These function make up the whole of the Datautil class which is connected to Device update manager to collect and organize the data. 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
