@@ -10,11 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Our implementation adds new classes,functions and instances like IDataMessageListener, PersistenceClientAdapater and DataUtil. The focus of all the new additions is to use the data containers created in lab activity 3; Acutator Data, SensorData and SystemPerformanceManager to handle the data and send/receive it from the CDA.
+Our implementation adds new classes, functions, and instances like IDataMessageListener, PersistenceClientAdapater, and DataUtil. The focus of all the new additions is to use the data containers created in lab activity 3; Acutator Data, SensorData, and SystemPerformanceManager to handle the data and send/receive it from the CDA.
 
 How does your implementation work?
 
-The implementation works by creating the data containers for the GDA specific implementaion and having them derive from the BaseIotData class. Then have the SystemPerformanceManager updated to be able to handle these new additions and add new functionalities like handle Telemetry. We then add JSON translation and connect it with our DataUtil implementaion for GDA, following which we modify the DeviceDataManger class to implement IDataMessageListener and allow it to recieve and invoke messages. Finally a local data persistence adapter will be implemented to allow the GDA to temporarily store state information to make decisions from in the future.
+The implementation works by creating the data containers for the GDA specific implementation and having them derive from the BaseIotData class. Then have the SystemPerformanceManager updated to be able to handle these new additions and add new functionalities like handle Telemetry. We then add JSON translation and connect it with our DataUtil implementation for GDA, following which we modify the DeviceDataManger class to implement IDataMessageListener and allow it to receive and invoke messages. Finally, a local data persistence adapter will be implemented to allow the GDA to temporarily store state information to make decisions from in the future.
 
 ### Code Repository and Branch
 
