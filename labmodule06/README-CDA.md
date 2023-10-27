@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: [Github link for CDA](https://github.com/BanSuth/piot-python-components/tree/labmodule06)
 
 ### UML Design Diagram(s)
 
@@ -41,15 +41,16 @@ your code to ensure it's correct. As for the tests you execute, you only need to
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - MqttClientConnectorTest (PIOT-CDA-06-003)  
-This is running the testConnectAndDisconnect() and testConnectAndCDAManagementStatusPubSub()
-
+This is running the testConnectAndDisconnect() and testConnectAndCDAManagementStatusPubSub()  
 Screenshot:
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT.PNG)
   
 - MqttClientConnectorTest (PIOT-CDA-06-004)  
 This running the the testActuatorCmdPubSub() test. Included is the output of the test and ConstrainedDeviceApp.py
-MqttClientConnectorTest Screenshot:
-
+MqttClientConnectorTest Screenshot:  
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT_task004.PNG)  
 ConstrainedDeviceApp.py output Screenshot:
+![ConstrainedDeviceApp](Images/ConstrainedDeviceAppTest_INT_Task004.PNG)
 
 
 
