@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: URL: [Github link for GDA](https://github.com/BanSuth/piot-java-components/tree/labmodule07)
+URL: [Github link for GDA](https://github.com/BanSuth/piot-java-components/tree/labmodule07)
 
 ### UML Design Diagram(s)
 
