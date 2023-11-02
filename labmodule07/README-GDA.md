@@ -16,7 +16,7 @@ How does your implementation work?
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL: URL: [Github link for GDA](https://github.com/BanSuth/piot-java-components/tree/labmodule07)
 
 ### UML Design Diagram(s)
 
@@ -31,9 +31,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+None for this module
 
 ### Integration Tests Executed
 
@@ -42,8 +40,28 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- MqttClientConnectorTest (PIOT-GDA-07-001)  
+This is running the testConnectAndDisconnect() test.  
+Screenshot:  
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT_task001.PNG)
+
+- MqttClientConnectorTest (PIOT-GDA-07-002)  
+This is running the testConnectAndDisconnect() test.  
+Screenshot:  
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT_task002.PNG)
+
+- MqttClientConnectorTest (PIOT-GDA-07-003)  
+This is running the testPublishAndSubscribe() test.  
+Screenshot:  
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT_task003.PNG)  
+
+- MqttClientConnectorTest (PIOT-GDA-07-004)   
+This is running the testPublishAndSubscribe(). Included is the output of the test and GatewayDeviceApp.java.  
+MqttClientConnectorTest  
+Screenshot:  
+![MqttClientConnectorTest](Images/MqttClientConnectorTest_INT_task004.PNG)  
+GatewayDeviceApp.java output  
+Screenshot:  
+![GatewayDeviceApp](Images/GatewayDeviceApp_INT_Task004.PNG)
 
 EOF.
