@@ -23,6 +23,7 @@ URL: [Github link for GDA](https://github.com/BanSuth/piot-java-components/tree/
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+![image](https://github.com/BanSuth/book-exercise-docs-Group1/assets/62486958/4533bfbd-ffe2-4735-94fe-5fbb3bcbdaa3)
 
 
 ### Unit Tests Executed
