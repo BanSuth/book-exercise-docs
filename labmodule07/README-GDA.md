@@ -10,11 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Our implementation creates a mqtt connector abstraction, initializes the mqtt client properties, and tests the connection. We also deal with callbacks using the paho-mqtt java library and uses them to support MQTT events. We also have a publish, subscribe and unsubscribe functionality.
+Our implementation creates a MQTT connector abstraction, initializes the MQTT client properties, and tests the connection. We also deal with callbacks using the paho-mqtt java library and uses them to support MQTT events. We also have a publish, subscribe, and unsubscribe functionality.
 
 How does your implementation work?
 
-Our implementation works by first creating an MQTTclientconnector and retrieving important values like host, port, and keep alive values from the configutil file. We then create a connect method and test if control packets are generated. We then deal with callback functions for message arrived, connection completee and delivery complete functions. We also implement publish and subscribe callbacks. We then modify these callbacks to support mqtt events by adding parameters such as user data and flags. Finally, we establish a publish, subscribe, and unsubscribe functionality using paho documentation. We then finally connect the newly created MQTT connector to our GDA.
+Our implementation works by first creating an MQTTclientconnector and retrieving important values like host, port, and keep alive values from the configutil file. We then create a connect method and test if control packets are generated. We then deal with callback functions for message arrived, connection complete, and delivery complete functions. We also implement publish and subscribe callbacks. We then modify these callbacks to support MQTT events by adding parameters such as user data and flags. Finally, we establish a publish, subscribe, and unsubscribe functionality using paho documentation. We then finally connect the newly created MQTT connector to our GDA.
 
 ### Code Repository and Branch
 
