@@ -40,8 +40,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- CoapServerAdapterTest  
+- CoapServerGatewayTest.java  
 Screenshot:
-![CoapServerAdapterTest](Images/CoapServerAdapterTest_INT.PNG)
+![CoapServerGatewayTest](Images/CoapServerGatewayTest_INT.PNG)
 
 EOF.
