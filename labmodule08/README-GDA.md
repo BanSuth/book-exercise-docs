@@ -10,11 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
-Our implemenation also provides CoAP Client Functionality to the GDA, this implemenation is very similiar to the CDA. This is mainly done through the creation of a CoapClientConnector, a TelemetryObserverHandler and a SysPerfDataObserverHandler. We then update the DeviceDataManager to accomodate these changes.
+Our implemenation also provides CoAP Client Functionality to the GDA, this implementation is very similar to the CDA. This is mainly done through the creation of a CoapClientConnector, a TelemetryObserverHandler, and a SysPerfDataObserverHandler. We then update the DeviceDataManager to accommodate these changes.
 
 How does your implementation work?
 
-Our implementation works by first creating the CoapClientConnector class and implementing initalization knowledge into it. We then implement a GET, PUT, POST, OBSERVE and DELETE method into the CoapClientConnector Class. Afterwards we test these methods and have them handled by the TelemetryObserverHandler and the SysPerfDataObserverHandler.
+Our implementation works by first creating the CoapClientConnector class and implementing initialization knowledge into it. We then implement a GET, PUT, POST, OBSERVE, and DELETE method into the CoapClientConnector Class. Afterward, we test these methods and have them handled by the TelemetryObserverHandler and the SysPerfDataObserverHandler.
 
 ### Code Repository and Branch
 
