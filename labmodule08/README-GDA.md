@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Our implemenation also provides CoAP Client Functionality to the GDA, this implemenation is very similiar to the CDA. This is mainly done through the creation of a CoapClientConnector, a TelemetryObserverHandler and a SysPerfDataObserverHandler. We then update the DeviceDataManager to accomodate these changes.
+
 How does your implementation work?
+
+Our implementation works by first creating the CoapClientConnector class and implementing initalization knowledge into it. We then implement a GET, PUT, POST, OBSERVE and DELETE method into the CoapClientConnector Class. Afterwards we test these methods and have them handled by the TelemetryObserverHandler and the SysPerfDataObserverHandler.
 
 ### Code Repository and Branch
 
@@ -23,6 +27,8 @@ URL: [Github link for GDA](https://github.com/BanSuth/piot-java-components/tree/
 NOTE: Include one or more UML designs representing your solution. It's expected each
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
+
+![image](https://github.com/BanSuth/book-exercise-docs-Group1/assets/62486958/413a21d9-a4da-4214-89e2-9e5a4bc7006b)
 
 
 ### Unit Tests Executed
