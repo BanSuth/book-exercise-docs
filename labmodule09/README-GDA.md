@@ -31,9 +31,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+None for this module.
 
 ### Integration Tests Executed
 
@@ -42,8 +40,56 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- CoapClientConnectorTest (PIOT-GDA-09-003)  
+This is running the testConnectAndDiscover() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_3.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-004)  
+This is running the testConnectAndGetCon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_4_2.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-004)  
+This is running the testConnectAndGetNon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_4_1.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-005)  
+This is running the testConnectAndPutCon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_5_1.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-005)  
+This is running the testConnectAndPutNon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_5_2.PNG)
+
+
+- CoapClientConnectorTest (PIOT-GDA-09-006)  
+This is running the testConnectAndPostCon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_6_1.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-006)  
+This is running the testConnectAndPostNon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_6_2.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-007)  
+This is running the testConnectAndDeleteCon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_7_1.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-007)  
+This is running the testConnectAndDeleteNon() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_7_2.PNG)
+
+- CoapClientConnectorTest (PIOT-GDA-09-008)  
+This is running the testObserve() test.  
+Screenshot:  
+![CoapClientConnectorTest](Images/CoapClientConnectorTest_INT_8_1.PNG)
+
 
 EOF.
