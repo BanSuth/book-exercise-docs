@@ -31,9 +31,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+None for this module.
 
 ### Integration Tests Executed
 
@@ -42,8 +40,34 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+## MqttClientPerformanceTest (PIOT-INT-10-001)  
+This is running the testConnectAndDisconnect(), testPublishQoS0(), testPublishQoS1(), testPublishQoS2() tests.  
+Screenshot:  
+![MqttClientPerformanceTest](Images/CDA/MqttClientPerformanceTest_1.PNG)
+
+## MqttClientConnectorTest (PIOT-CDA-10-001)
+Screenshot:  
+![MqttClientConnectorTest](Images/CDA/MqttClientConnectorTest_001.PNG)
+
+## DeviceDataManagerCallbackTest (PIOT-CDA-10-002)
+Screenshot:  
+![DeviceDataManagerCallbackTest](https://github.com/BanSuth/book-exercise-docs-Group1/assets/80484349/7a61a224-44c5-43c2-8fe1-2c3e105e7f81)
+
+## MqttClientConnectorTest (PIOT-CDA-10-003)
+This is running the testNewActuatorCmdPubSub() test.  
+Screenshot:  
+![MqttClientConnectorTest](Images/CDA/MqttClientConnectorTest_003.PNG)
+
+## DeviceDataManagerIntegrationTest (PIOT-CDA-10-004)
+Screenshot:  
+![DeviceDataManagerIntegrationTest](Images/CDA/DeviceDataManagerIntegrationTest_004.PNG)
+
+## PIOT-INT-10-003 (Running CDA and GDA Together)
+CDA Output Screenshot:
+![PIOT-INT-10-003](Images/CDA/PIOT-INT-10-003.PNG)
+
+## PIOT-INT-10-004 (Running CDA and GDA Together with TLS)
+CDA Output Screenshot:
+![PIOT-INT-10-004](Images/CDA/PIOT-INT-10-004.PNG)
 
 EOF.
