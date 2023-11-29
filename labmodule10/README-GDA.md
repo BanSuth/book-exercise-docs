@@ -31,9 +31,7 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+None for this module
 
 ### Integration Tests Executed
 
@@ -42,8 +40,46 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+## MqttClientPerformanceTest (PIOT-INT-10-001)  
+This is running the testConnectAndDisconnect() test.  
+Screenshot:  
+![MqttClientPerformanceTest](Images/GDA/MqttClientPerformanceTest_1.PNG)
+
+This is running the testPublishQoS0() test.  
+Screenshot:  
+![MqttClientPerformanceTest](Images/GDA/MqttClientPerformanceTest_2.PNG)
+
+This is running the testPublishQoS1() test.  
+Screenshot:  
+![MqttClientPerformanceTest](Images/GDA/MqttClientPerformanceTest_3.PNG)
+
+This is running the testPublishQoS2() test.  
+Screenshot:  
+![MqttClientPerformanceTest](Images/GDA/MqttClientPerformanceTest_4.PNG)
+
+## MqttClientConnectorTest (PIOT-GDA-10-001)
+Screenshot:  
+![MqttClientConnectorTest](Images/GDA/MqttClientConnectorTest_1.PNG)
+
+## MqttClientConnectorTest (PIOT-GDA-10-002)
+This is running the testConnectAndDisconnect() test.  
+Screenshot:  
+![MqttClientConnectorTest](Images/GDA/MqttClientConnectorTest_002.PNG)
+
+This is running the testActuatorCommandResponseSubscription() test.  
+Screenshot:
+![MqttClientConnectorTest](Images/GDA/MqttClientConnectorTest_002_2.PNG)
+
+## DeviceDataManagerSimpleCdaActuationTest (PIOT-GDA-10-003)
+Screenshot:
+![DeviceDataManagerSimpleCdaActuationTest](Images/GDA/DeviceDataManagerSimpleCdaActuationTest_003.PNG)
+
+## PIOT-INT-10-003 (Running CDA and GDA Together)
+GDA Output Screenshot:
+![PIOT-INT-10-003](Images/GDA/PIOT-INT-10-003.PNG)
+
+## PIOT-INT-10-004 (Running CDA and GDA Together with TLS)
+GDA Output Screenshot:
+![PIOT-INT-10-004](Images/GDA/PIOT-INT-10-004.PNG)
 
 EOF.
