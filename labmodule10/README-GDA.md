@@ -10,7 +10,11 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Our implementation for the GDA involves adding a simplecertmanagement util package, X.509 certificates as well as multiple tests. This is very important in establishing a security setup with our other classes like the MQTTClientConnector class.
+
 How does your implementation work?
+
+Our implemenation works by having a priviate method to load credentials from a config file and useing the requisite dependencies to run it along side a SSL socket factory initializor method. Finally we will initialize our MQTT client connect with encryption enabled.
 
 ### Code Repository and Branch
 
